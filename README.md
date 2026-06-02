@@ -1,6 +1,6 @@
 # 📊 CargaWin11
 
-<img src="previa_02.png" width="400px">
+<img src="previa_01.png" width="400px"><img src="previa_02.png" width="400px">
 
 Aplicação nativa pro Windows 11 que consiste em um mini dashboard de monitoramento de sistema. A aplicação foi inspirada em ferramentas como o Gerenciador de Tarefas do Windows e o Conky disponível para sistemas Unix-like. 
 
