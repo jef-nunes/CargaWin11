@@ -1,4 +1,4 @@
-# 📊 carga-win11
+# 📊 CargaWin11
 
 <img src="previa_02.png" width="400px">
 
