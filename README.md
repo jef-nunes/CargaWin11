@@ -2,7 +2,7 @@
 
 <img src="previa_01.png" height="400px" width="400px"><img src="previa_02.png" height="400px" width="400px">
 
-Aplicação nativa pro Windows 11 que consiste em um mini dashboard de monitoramento de sistema. A aplicação foi inspirada em ferramentas como o Gerenciador de Tarefas do Windows e o Conky disponível para sistemas Unix-like. 
+Aplicação nativa / híbrida pro Windows 11 que consiste em um mini dashboard de monitoramento de carga do sistema. A aplicação foi inspirada em ferramentas como o Gerenciador de Tarefas do Windows e o Conky disponível para sistemas Unix-like. 
 
 O objetivo do app é exibir informações em tempo real sobre CPU, RAM, armazenamento e rede atavés de uma interface dinâmica e personalizável a qual permite ao usuário escolher entre diferentes temas de cores e fontes. 
 
