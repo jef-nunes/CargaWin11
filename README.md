@@ -1,6 +1,8 @@
-# CargaWin11
+<h1 align="center">CargaWin11</h1>
 
+<p align="center">
 <img src="./assets/logo.png" width="400px" height="400px">
+</p>
 <br><br>
 
 ## Sobre
