@@ -7,7 +7,7 @@
         xmlns:local="clr-namespace:MonitorWin11.Host"
         xmlns:local1="clr-namespace:MonitorWin11.Ui.Blazor"
         mc:Ignorable="d"
-        Title="Carga Win11" Height="450" Width="800">
+        Title="CargaWin11" Height="450" Width="800">
     <Grid>
         <blazor:BlazorWebView HostPage="wwwroot/index.html"
                               Services="{x:Static local:App.Services}">

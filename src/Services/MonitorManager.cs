@@ -45,9 +45,9 @@ public class MonitorManager
 
         Stats.TcpConnections = _netMonitor.TcpConnections;
 
-        Stats.UploadKbps = Math.Round(_netMonitor.UploadKbps);
+        Stats.UploadKb = Math.Round(_netMonitor.UploadKb);
 
-        Stats.DownloadKbps = Math.Round(_netMonitor.DownloadKbps);
+        Stats.DownloadKb = Math.Round(_netMonitor.DownloadKb);
         
         StatsChanged?.Invoke();
     }

@@ -84,23 +84,118 @@
     --color-top-bar-bg: #0f1a24;
 }
 
-.theme-forest{
-    --color-card: #1d2a21;
-    --color-background: #111814;
-    --color-text: #daf3af;
-    --color-border: #304136;
+.theme-rustic{
+    --color-card: #4a3b2c;
+    --color-background: #2f241b;
+    --color-text: #f2e5c8;
+    --color-border: #6a5744;
 
-    --color-neutral: #5bc0eb;
-    --color-low: #59d65d;
-    --color-medium: #e8c547;
-    --color-high: #f08c46;
-    --color-extreme: #e05d44;
+    --color-neutral: #7fa3b0;
+    --color-low: #7fa05a;
+    --color-medium: #d3a24c;
+    --color-high: #c97745;
+    --color-extreme: #b84c3a;
 
-    --color-card-icon-svg: #3f5545;
+    --color-card-icon-svg: #75614d;
 
-    --color-top-bar-btn-bg: #223328;
-    --color-top-bar-btn-fg: #7fe08f;
-    --color-top-bar-bg: #18231c;
+    --color-top-bar-btn-bg: #5b4735;
+    --color-top-bar-btn-fg: #f0d7a1;
+    --color-top-bar-bg: #3d3024;
+}
+
+.theme-steampunk{
+    --color-card: #1c2425;
+    --color-background: #0f1a1c;
+    --color-text: #e6d2a5;
+    --color-border: #6b4f35;
+
+    --color-neutral: #61a3f1;
+    --color-low: #7f9b55;
+    --color-medium: #d1a241;
+    --color-high: #cf7b3c;
+    --color-extreme: #b9513c;
+
+    --color-card-icon-svg: #354345;
+
+    --color-top-bar-btn-bg: #4b392c;
+    --color-top-bar-btn-fg: #d7b16d;
+    --color-top-bar-bg: #2f241d;
+}
+
+.theme-ocean{
+    --color-card: #163040;
+    --color-background: #0c1f2b;
+    --color-text: #d7f0ff;
+    --color-border: #295066;
+
+    --color-neutral: #55c7ff;
+    --color-low: #53d68a;
+    --color-medium: #f0cf61;
+    --color-high: #ff9d57;
+    --color-extreme: #ff6666;
+
+    --color-card-icon-svg: #28475b;
+
+    --color-top-bar-btn-bg: #1b4155;
+    --color-top-bar-btn-fg: #6fd6ff;
+    --color-top-bar-bg: #122d3d;
+}
+
+.theme-dracula{
+    --color-card: #252337;
+    --color-background: #181920;
+    --color-text: #feffee;
+    --color-border: #4b4f68;
+
+    --color-neutral: #8be9fd;
+    --color-low: #50fa7b;
+    --color-medium: #fae48c;
+    --color-high: #ffb86c;
+    --color-extreme: #ff5555;
+
+    --color-card-icon-svg: #383553;
+
+    --color-top-bar-btn-bg: #44475a;
+    --color-top-bar-btn-fg: #bd93f9;
+    --color-top-bar-bg: #252337;
+}
+
+.theme-solarized-dark{
+    --color-card: #073642;
+    --color-background: #002b36;
+    --color-text: #93a1a1;
+    --color-border: #184d59;
+
+    --color-neutral: #268bd2;
+    --color-low: #859900;
+    --color-medium: #b58900;
+    --color-high: #cb4b16;
+    --color-extreme: #dc322f;
+
+    --color-card-icon-svg: #1c4c57;
+
+    --color-top-bar-btn-bg: #0a3f4c;
+    --color-top-bar-btn-fg: #2aa4f4;
+    --color-top-bar-bg: #06303b;
+}
+
+.theme-cyberpunk{
+    --color-card: #221b3d;
+    --color-background: #120f24;
+    --color-text: #d5c3da;
+    --color-border: #42356e;
+
+    --color-neutral: #00e5ff;
+    --color-low: #00ff9c;
+    --color-medium: #ffe066;
+    --color-high: #ff8f5e;
+    --color-extreme: #ff4d8d;
+
+    --color-card-icon-svg: #392f61;
+
+    --color-top-bar-btn-bg: #2a214d;
+    --color-top-bar-btn-fg: #ff6ef5;
+    --color-top-bar-bg: #1b1635;
 }
 
 @font-face {
@@ -118,6 +213,12 @@
 @font-face {
     font-family: 'Merriweather';
     src: url('../fonts/Merriweather.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat.ttf') format('truetype');
     font-display: swap;
 }
 
@@ -161,6 +262,10 @@
     font-family: 'Merriweather', serif;
 }
 
+.font-montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .font-orbitron{
     font-family: 'Orbitron', sans-serif;
 }
@@ -175,6 +280,10 @@
 
 .font-tomorrow{
     font-family: 'Tomorrow', sans-serif;
+}
+
+.font-times-new-roman{
+    font-family: 'Times New Roman', serif;
 }
 
 *{

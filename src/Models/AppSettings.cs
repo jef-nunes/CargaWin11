@@ -14,7 +14,7 @@ public class AppSettings
 
     public int MonitorUpdateIntervalMs { get; set; } = 1000;
 
-    public int CurrentThemeIndex { get; set; } = 1;
+    public int CurrentThemeIndex { get; set; } = 0;
 
     public int CurrentFontIndex { get; set; } = 0;
 
@@ -27,6 +27,8 @@ public class AppSettings
     public bool DisplaySpecsCard { get; set; } = true;
 
     public bool DisplayNetCard { get; set; } = true;
+    
+    public bool IsDebugMode { get; set; } = false;
 
     public void PersistSettings()
     {
@@ -43,8 +45,10 @@ public class AppSettings
 
     public void LoadSettings()
     {
+        // Se o arquivo não exisitr por algum motivo
         if (!File.Exists(SettingsFilePath))
         {
+            PersistSettings();
             return;
         }
 
@@ -60,6 +64,8 @@ public class AppSettings
                 return;
             }
 
+            IsDebugMode = loaded.IsDebugMode;
+            
             MonitorUpdateIntervalMs = loaded.MonitorUpdateIntervalMs;
             CurrentThemeIndex = loaded.CurrentThemeIndex;
             CurrentFontIndex = loaded.CurrentFontIndex;
@@ -78,6 +84,8 @@ public class AppSettings
 
     public void ResetSettings()
     {
+        IsDebugMode = false;
+        
         MonitorUpdateIntervalMs = 1000;
         CurrentThemeIndex = 0;
         CurrentFontIndex = 0;

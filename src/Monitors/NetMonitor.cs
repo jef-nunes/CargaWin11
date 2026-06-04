@@ -8,8 +8,8 @@ public class NetMonitor
     private long _lastBytesReceived;
     private DateTime _lastUpdate;
 
-    public double UploadKbps { get; private set; }
-    public double DownloadKbps { get; private set; }
+    public double UploadKb { get; private set; }
+    public double DownloadKb { get; private set; }
     public int TcpConnections { get; private set; }
 
     private NetworkInterface _nic;
@@ -45,8 +45,8 @@ public class NetMonitor
             var sentDiff = stats.BytesSent - _lastBytesSent;
             var recvDiff = stats.BytesReceived - _lastBytesReceived;
 
-            UploadKbps = (sentDiff / 1024d) / interval;
-            DownloadKbps = (recvDiff / 1024d) / interval;
+            UploadKb = (sentDiff / 1024d) / interval;
+            DownloadKb = (recvDiff / 1024d) / interval;
 
             _lastBytesSent = stats.BytesSent;
             _lastBytesReceived = stats.BytesReceived;
@@ -54,8 +54,8 @@ public class NetMonitor
         }
         catch
         {
-            UploadKbps = 0;
-            DownloadKbps = 0;
+            UploadKb = 0;
+            DownloadKb = 0;
 
             // tenta rebind se interface mudou
             _nic = GetActiveInterface();

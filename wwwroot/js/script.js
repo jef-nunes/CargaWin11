@@ -76,8 +76,13 @@ const availableThemesList = [
     {cssClassName:"theme-light",name:"Claro"},
     {cssClassName:"theme-light-warm",name:"Ensolarado"},
     {cssClassName:"theme-dark",name:"Escuro"},
-    {cssClassName:"theme-cyber",name:"Azul Escuro"},
-    {cssClassName:"theme-forest",name:"Verde Escuro"},
+    {cssClassName:"theme-solarized-dark",name:"Escuro Ensolarado"},
+    {cssClassName:"theme-ocean",name:"Oceano"},
+    {cssClassName:"theme-dracula",name:"Drácula"},
+    {cssClassName:"theme-rustic",name:"Rústico"},
+    {cssClassName:"theme-cyber",name:"Cyber"},
+    {cssClassName:"theme-steampunk",name:"Steampunk"},
+    {cssClassName:"theme-cyberpunk",name:"Cyberpunk"}
 ];
 
 // Índice do tema atual
@@ -114,32 +119,40 @@ const availableFontsList = [
         name: "Default"
     },
     {
-        cssClassName: "font-fira-code",
-        name: "Fira Code"
+        cssClassName: "font-quicksand",
+        name: "Quicksand"
     },
     {
         cssClassName: "font-kode-mono",
         name: "Kode Mono"
     },
     {
+        cssClassName: "font-montserrat",
+        name: "Montserrat"
+    },
+    {
         cssClassName: "font-merriweather",
         name: "Merriweather"
     },
     {
-        cssClassName: "font-orbitron",
-        name: "Orbitron"
+        cssClassName: "font-fira-code",
+        name: "Fira Code"
+    },
+    {
+        cssClassName: "font-times-new-roman",
+        name: "Times New Roman"
     },
     {
         cssClassName: "font-press-start-2p",
         name: "Press Start 2P"
     },
     {
-        cssClassName: "font-quicksand",
-        name: "Quicksand"
-    },
-    {
         cssClassName: "font-tomorrow",
         name: "Tomorrow"
+    },
+    {
+        cssClassName: "font-orbitron",
+        name: "Orbitron"
     }
 ];
 
@@ -186,7 +199,7 @@ window.applyUserPreferences = (prefThemeIndex, prefFontIndex, prefDisplaySpecsCa
     
     // Novo tema
     currentThemeIndex = prefThemeIndex;
-    addBodyClass(availableFontsList[prefThemeIndex].cssClassName);
+    addBodyClass(availableThemesList[prefThemeIndex].cssClassName);
     //updateCurrentThemeLabel();
     
     // Nova fonte

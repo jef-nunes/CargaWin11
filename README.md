@@ -1,12 +1,12 @@
-# 📊 CargaWin11
+# 📊 carga-win11
 
-<img src="previa_01.png" height="400px" width="400px"><img src="previa_02.png" height="400px" width="400px">
+<img src="previa_02.png" width="400px">
 
-Aplicação nativa/híbrida para Windows 11 que permite ao usuário visualizar métricas do sistema operacional. O projeto foi inspirado em ferramentas como o Gerenciador de Tarefas do Windows e o Conky, disponível para sistemas Unix-like.
+Aplicação nativa pro Windows 11 que consiste em um mini dashboard de monitoramento de sistema. A aplicação foi inspirada em ferramentas como o Gerenciador de Tarefas do Windows e o Conky disponível para sistemas Unix-like. 
 
-O objetivo do aplicativo é exibir informações em tempo real sobre CPU, memória RAM, armazenamento e rede por meio de uma interface gráfica dinâmica, moderna e personalizável. O usuário pode escolher entre diferentes temas de cores e fontes, além de definir quais cartões de informações deseja visualizar no dashboard.
+O objetivo do app é exibir informações em tempo real sobre CPU, RAM, armazenamento e rede, com interface dinâmica e personalizável a qual permite ao usuário escolher entre diferentes temas de cores e fontes. 
 
-A aplicação foi desenvolvida com o ecossistema .NET. Por utilizar Blazor Hybrid, a interface de usuário é executada em uma WebView nativa e construída com tecnologias web, combinando a experiência de uma aplicação desktop com a flexibilidade do desenvolvimento frontend moderno.
+A aplicação foi desenvolvida sobretudo com a linguagem C# utilizando os frameworks Blazor e WPF.
 
 ---
 

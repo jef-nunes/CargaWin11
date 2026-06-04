@@ -16,7 +16,7 @@ public class MonitorStats
     public double DiskUsedPercent { get; set; }
 
     // NETWORK
-    public double UploadKbps { get; set; }
-    public double DownloadKbps { get; set; }
+    public double UploadKb { get; set; }
+    public double DownloadKb { get; set; }
     public int TcpConnections { get; set; }
 }
