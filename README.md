@@ -4,8 +4,7 @@
 <br><br>
 
 ## Sobre
-<img src="previa_01.png" width="400px" height="400px">
-<img src="previa_02.png" width="400px" height="400px">
+<img src="previa_01.png" width="400px" height="400px"><img src="previa_02.png" width="400px" height="400px">
 Aplicação nativa pro Windows 11 que consiste em um mini dashboard de monitoramento de sistema. A aplicação foi inspirada em ferramentas como o Gerenciador de Tarefas do Windows e o Conky disponível para sistemas Unix-like. 
 
 O objetivo da aplicação é exibir informações em tempo real sobre CPU, RAM, armazenamento e rede, com interface dinâmica e personalizável a qual permite ao usuário escolher entre diferentes temas de cores e fontes. 
